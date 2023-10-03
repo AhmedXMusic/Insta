@@ -9,5 +9,21 @@
             "description": "Dapatkan di @BotFather",
             "required": true
         }
+        "api_hash": {
+            "description": "API",
+            "required": true
+        }
+        "api_id": {
+            "description": "API",
+            "required": true
+        }
+        "owner_id": {
+            "description": "id",
+            "required": true
+        }
+        "owner_username": {
+            "description": "username",
+            "required": true
+        }
     }
 }
