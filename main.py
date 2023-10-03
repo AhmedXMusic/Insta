@@ -28,9 +28,9 @@ from modules.sessionloader import sessiongen
 # Developer : Mohamed Rizad | @riz4d 
 # queries Are Drop At @riz4d on Telegram
 
-bot_token='6287502170:AAFobjg-snRpkVg3qAJ0rIbA9gTttLPPfo8'
+bot_token=''
 api_id='23337074'
-api_hash='2e0ea05d6d6bfd6708fa51f54f36baf7'
+api_hash=''
 owner_id='5866649827'
 owner_username='@bbnnq'
 
