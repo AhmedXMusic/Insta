@@ -24,6 +24,6 @@
         "owner_username": {
             "description": "username",
             "required": true
-        },
-    }
+        }
+    },
 }
