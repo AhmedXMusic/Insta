@@ -1,29 +1,49 @@
 {
-    "name": "InsTagram",
-    "description": "[TikTokDL] adalah bot telegram untuk mengunduh video atau audio dari link tiktok yang berbasis pyTelegramBotAPI",
-    "repository": "https://github.com/BukanDev/TikTokDL",
-    "logo": "https://telegra.ph/file/aa4792ae1535cc79ae5a8.jpg",
-    "stack": "heroku-22",
-    "env": {
-        "bot_token": {
-            "description": "Dapatkan di @BotFather",
-            "required": true
-        },
-        "api_hash": {
-            "description": "API",
-            "required": true
-        },
-        "api_id": {
-            "description": "API",
-            "required": true
-        },
-        "owner_id": {
-            "description": "id",
-            "required": true
-        },
-        "owner_username": {
-            "description": "username",
-            "required": true
-        }
+  "name": "TikTok Bot",
+  "description": "بوت تيليجرام لتحميل الفيديوهات او المقاطع الصوتية من التيكتوك.",
+  "keywords": [
+    "telegram",
+    "تيكتوك",
+    "video",
+    "tiktok"
+  ],
+  "success_url": "https://T.me/cczza",
+  "website": "https://github.com/AhmedXMusic",
+  "repository": "https://github.com/AhmedXMusic/Insta",
+  "env": {
+    "bot_token": {
+      "description": "ضع هنا توكن البوت احصل عليه من هنا  https://t.me/botfather",
+      "value": ""
     },
+    "api_id": {
+      "description": "ضع هنا الايبب ايدي احصل عليه من هنا https://my.telegram.org",
+      "value": ""
+    },
+    "owner_id": {
+      "description": "ضع هنا الايبب ايدي احصل عليه من هنا https://my.telegram.org",
+      "value": ""
+    },
+     "owner_username": {
+      "description": "ضع هنا الايبب ايدي احصل عليه من هنا https://my.telegram.org",
+      "value": ""
+    }, 
+    "api_hash": {
+      "description": "ضع هنا الايبي هاش احصل عليه من هنا https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
 }
