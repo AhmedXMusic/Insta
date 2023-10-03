@@ -27,7 +27,7 @@
       "description": "ضع هنا الايبب ايدي احصل عليه من هنا https://my.telegram.org",
       "value": ""
     }, 
-    "api_hash": {
+     "api_hash": {
       "description": "ضع هنا الايبي هاش احصل عليه من هنا https://my.telegram.org",
       "value": ""
     }
