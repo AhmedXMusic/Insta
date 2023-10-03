@@ -24,10 +24,16 @@ from instaloader import Instaloader, Post, TwoFactorAuthRequiredException
 from modules.reels import download_instagram_video
 from modules.post import download_instagram_post
 from modules.sessionloader import sessiongen
-from config import bot_token,api_hash,api_id,owner_id,owner_username
 
 # Developer : Mohamed Rizad | @riz4d 
 # queries Are Drop At @riz4d on Telegram
+
+bot_token='6287502170:AAFobjg-snRpkVg3qAJ0rIbA9gTttLPPfo8'
+api_id='23337074'
+api_hash='2e0ea05d6d6bfd6708fa51f54f36baf7'
+owner_id='5866649827'
+owner_username='@bbnnq'
+
 
 loader = Instaloader(download_videos=True, download_geotags=False, download_comments=False, compress_json=False)
 instadown = Client("InstaDown",api_id=int(api_id),api_hash=api_hash,bot_token=bot_token)
